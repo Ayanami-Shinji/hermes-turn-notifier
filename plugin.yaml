@@ -1,0 +1,6 @@
+name: hermes-turn-notifier
+version: 1.0.0
+description: "Send a macOS notification after each Hermes response completes. TUI/CLI compatible."
+author: "lcy"
+hooks:
+  - post_llm_call
